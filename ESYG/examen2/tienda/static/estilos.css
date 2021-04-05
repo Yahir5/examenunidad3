@@ -1,31 +1,7 @@
 body{
-	background-color: #DD4D36;
-	color: white;
+	background-color: #16D066;
+	color: black;
 }
 h1{
 	text-align: center;
-}
-section{
-	width: 100%;
-}
-article{
-	background-color: #2ECC71;
-	border-radius: 15px;
-	box-sizing: border-box;
-	color: #000000;
-	display: inline-block;
-	margin: 1rem;
-	padding: 1rem;
-	vertical-align: top;
-	text-align: center;
-	width: 50%:;
-}
-article h4{
-	border-bottom: solid blue 4px;
-
-}
-
-p{
-	text-align: center;
-	
 }
