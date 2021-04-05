@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,
+	initial-scale=1.0">
+	<title>Tienda Online</title>
+	{% load static %}
+	<link rel="stylesheet" href="{% static 'estilos.css' %}">
+</head>
+<body>
+	<h1>Bienvenidos</h1>
+	<section id="principal">
+		{% for producto in producto %}
+			<article>
+				<h4>{{ producto.titulo }}</h4>
+				<p>{{ producto.contenido }}</p>
+			</article>
+		{% endfor %}
+	</section>
+</body>
+<img src="../static/tec.jpg" width="400" height="341" >
+<img src="../static/mropa.jpg" width="400" height="341">
+<img src="../static/mele.jpg" width="400" height="341">
+<p >Estas marcas y mas, las encuentras aqui mismo.</p>
+</html>
